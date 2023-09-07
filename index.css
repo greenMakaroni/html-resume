@@ -15,7 +15,7 @@
 
 .override-margin {
     margin-right: 10px;
-    margin-left: 0;
+    margin-left: 20px;
 }
 
 .zeroMP {
@@ -112,7 +112,7 @@ a {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .skills-item {
@@ -150,18 +150,17 @@ a {
 }
 
 .work-item {
-    width: 20vw;
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
     padding-bottom: 2px;
     padding-top: 2px;
     color: black;
-    border: 1px solid red;
 }
+
 
 .workHeader {
     margin-left: 20px;
@@ -169,5 +168,44 @@ a {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
+    line-height: 1px;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    margin-left: -20px;
+}
+
+
+.minusMargin {
+    margin-top: -5px;
+}
+
+.project {
+    color: black;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.projectsLanguages {
+    display: flex;
+    flex-direction: row;
 }
 
