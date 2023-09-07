@@ -1,3 +1,14 @@
+.material-symbols-outlined {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
 .zeroMP {
     margin: 0;
     padding: 0;
@@ -19,6 +30,8 @@ a {
 
 .banner {
     display: flex;
+    padding: 5vh 3vw 3vw 3vw;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 15vh;
@@ -28,8 +41,18 @@ a {
 
 .name {
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.statement {
+    padding: 10px;
+    color: white;
+    width: 80%;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .linksHeader {
@@ -40,4 +63,22 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.leftCol {
+    width: 33vw;
+    height: 85vh;
+    background-color: black;
+}
+
+.contact-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
